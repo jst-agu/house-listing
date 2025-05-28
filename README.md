@@ -35,7 +35,7 @@ https://api.pikwy.com/web/683673644d22ff7234013437.jpg
 git clone https://github.com/jst-agu/house-listing.git
 
 # Navigate into the project
-cd your-repo-name
+cd house-listing
 
 # Install dependencies
 npm install
