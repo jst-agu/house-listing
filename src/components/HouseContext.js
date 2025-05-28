@@ -24,7 +24,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueCountries = ['Location (any)', ...new Set(allCountries)];
     // set countries state
     setCountries(uniqueCountries);
-  }, []);
+  }, [houses]);
 
   // return all properties
   useEffect(() => {
@@ -35,7 +35,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueProperties = ['Property type (any)', ...new Set(allProperties)];
     // set properties state
     setProperties(uniqueProperties);
-  }, []);
+  }, [houses]);
 
   const handleClick = () => {
   setLoading(true);
